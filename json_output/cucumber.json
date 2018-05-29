@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 405076,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookingStepDefiniations.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Free CRM creat deal page",
+        "description": "",
+        "id": "free-crm-hook-test;free-crm-creat-deal-page",
+        "after": [
+          {
+            "result": {
+              "duration": 692947,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookingStepDefiniations.Teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 162526544,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is in deal page",
+            "match": {
+              "location": "hookingStepDefiniations.user_is_in_deal_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2983582,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Userf fills all the details",
+            "match": {
+              "location": "hookingStepDefiniations.userf_fills_all_the_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3043726,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Deal page is created",
+            "match": {
+              "location": "hookingStepDefiniations.deal_page_is_created()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Hook Test",
+    "description": "",
+    "id": "free-crm-hook-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/RAKESH/Desktop/Testing/FreeCRMBDDframework/src/main/java/Features/Hook.feature"
+  }
+]

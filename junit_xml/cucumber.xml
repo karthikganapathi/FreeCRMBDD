@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.169652">
+<testcase classname="Free CRM Hook Test" name="Free CRM creat deal page" time="0.169652">
+<system-out><![CDATA[Given User is in deal page..................................................passed
+When Userf fills all the details............................................passed
+Then Deal page is created...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
